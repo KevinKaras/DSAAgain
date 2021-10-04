@@ -116,3 +116,11 @@ FROM emp_details
 JOIN emp_departments ON emp_details.emp_dept = emp_department.dpt_code
 GROUP BY emp_department.dpt_name 
 HAVING COUNT > 2
+
+
+returns 
+dpt_name
+---------
+Finance
+IT
+HR
