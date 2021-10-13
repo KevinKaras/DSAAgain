@@ -10,14 +10,14 @@ DPT_CODE DPT_NAME        DPT_ALLOTMENT
       
 emp_details ----------------------------------------- TABLE
       
-EMP_IDNO EMP_FNAME       EMP_LNAME         EMP_DEPT
---------- --------------- --------------- ----------
-   127323 Michale         Robbin                  57        
-   526689 Carlos          Snares                  63
-   843795 Enric           Dosio                   57
-   328717 Jhon            Snares                  63
-   444527 Joseph          Dosni                   47
-   659831 Zanifer         Emily                   47
+EMP_IDNO EMP_FNAME       EMP_LNAME         EMP_DEPT      DPT_CODE DPT_NAME        DPT_ALLOTMENT
+--------- --------------- --------------- ----------     -------- --------------- -------------
+   127323 Michale         Robbin                  57      57      IT                      65000    
+   526689 Carlos          Snares                  63      63      Finance                 15000
+   843795 Enric           Dosio                   57      57      IT                      65000
+   328717 Jhon            Snares                  63      63      Finance                 15000
+   444527 Joseph          Dosni                   47      47      HR                     240000
+   659831 Zanifer         Emily                   47      47      HR                     240000
    847674 Kuleswar        Sitaraman               57
    748681 Henrey          Gabriel                 47
    555935 Alex            Manuel                  57
@@ -26,7 +26,18 @@ EMP_IDNO EMP_FNAME       EMP_LNAME         EMP_DEPT
    631548 Alan            Snappy                  27
    839139 Maria           Foster                  57
    
+
+From the following tables write a SQL query to find the names of departments where more than two employees are working. Return dpt_name
   
+SELECT emp_department.dpt_name
+FROM emp_department
+JOIN emp_details ON emp_details.emp_dept = emp_department.dpt_name
+GROUP BY dpt_name
+HAVING COUNT(dpt_name) > 2
+
+
+
+
 return   
   
 dpt_name
@@ -124,3 +135,4 @@ dpt_name
 Finance
 IT
 HR
+
