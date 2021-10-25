@@ -22,3 +22,5 @@ function isValid($s) {
         return empty($stack);
 }
 
+
+// rework this to be errorless
