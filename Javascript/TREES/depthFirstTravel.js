@@ -25,8 +25,23 @@ c.right = f
 
 //  ITERATIVE
 
+function depthFirstValuesIterative(root){
+    if(root === null){
+        return []
+    }
+    let finalArr = []
+    let stack = [ root ];
+    while(stack.length > 0){
+        let current = stack.pop()
+        
+        finalArr.push(current)
+        if(current.right) stack.push(current.right)
+        if(current.left)  stack.push(current.left)
+    }
 
-
+    return finalArr
+}
+console.log(depthFirstValuesIterative(a))
 
 
 // RECURSIVE
@@ -41,4 +56,3 @@ function depthFirstValues(root){
     return [root.val, ...leftValues, ...rightValues]
 }
 
-console.log(depthFirstValues(a))
