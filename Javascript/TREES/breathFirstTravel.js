@@ -44,3 +44,6 @@ function breathFirstTravelIterative(root){
 
 console.log(breathFirstTravelIterative(a))
 
+
+
+// Change this so that the terminal just holds node values and not the node itself. Super easy. 
