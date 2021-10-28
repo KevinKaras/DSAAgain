@@ -136,3 +136,5 @@ Finance
 IT
 HR
 
+
+-- revisited for studying purposes

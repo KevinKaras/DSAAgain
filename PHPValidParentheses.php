@@ -1,3 +1,5 @@
+
+
 function isValid($s) {
         $parentheses = [
             "(" => ")",
