@@ -1,6 +1,7 @@
 
+<?php 
 
-function isValid($s) {
+$isValid($s) {
         $parentheses = [
             "(" => ")",
             "[" => "]",
@@ -23,6 +24,6 @@ function isValid($s) {
         
         return empty($stack);
 }
-
+?>
 
 // rework this to be errorless
