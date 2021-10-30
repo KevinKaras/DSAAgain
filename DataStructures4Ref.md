@@ -108,17 +108,35 @@ Practice implementing all of the data-structures mentioned earlier in this artic
 
 You probably won’t be asked to implement an Array or balanced BSTs like AVL or Redblack trees but you should know how they work.
 Assisted Practice (Mock Interviews)
+
 Practicing topics and questions alone isn’t enough. During the interview you’ll be interacting with a real person who is judging your skills in real-time. The situation is more stressful than when you study at home. To get around the awkwardness and anxiety of a real interview, you should do many practice interviews beforehand. This will help you be comfortable so that you can focus on the interview question rather than being distracted by non-technical things.
+
 These types of practice interviews are called Mock Interviews. You can have a friend help you or find a service online that’ll match you with an interviewer.
+
+
 Knowing when you’re ready
+
 You’ll never feel “ready” no matter how long you study. Theres always more topics to dive deeper into or weak areas that could use more practice.
+
 There is definitely an element of luck in the whole process. It’s very possible that you get a question on a topic you haven’t prepared for at all or are really weak on. It’s also possible that you get all questions on topics you’re really strong in since two months ago and didn’t need to spend that extra time studying to pass. You can’t prepare for every possible outcome, but your chances of success get higher than everyone else’s with more practice.
+
 Keeping track of your progress and getting feedback is very important in knowing when you’re truly ready to perform on the real interview without relying on just emotion.
+
 Keep track of your completion times when you do practice questions and aim for at most 40 minutes to complete most medium level questions and 1 hour to complete hard level questions on sites like leetcode.com or hackerrank.com.
+
 Realize that you must pass every edge case for it to count on those sites but luckily this isn’t the case for real interviews! Most interview code is evaluated on a small set of edge cases and small errors get passed or considered to be irrelevant all the time. The point of evaluation isn’t to be so strict as to expect perfection, but they need to see enough “signals" to be convinced.
+
+
 Do at least three mock interviews before you do the real one. Only move forward when you can consistently perform well during practice.
+
 Big tech companies hire non-stop so they’re extremely flexible on scheduling or rescheduling your interview date. I rescheduled my interviews with Google and Uber by 2 and 1 months respectively because I wasn’t ready. I’ve done even longer push backs in the past.
+
+
 You don’t need any special excuse to reschedule an interview. I simply told them “I need more time to prepare”. These companies dedicate a lot of money for your interview. 5-6 full-time employees get paid to interview you for 4-5 hours and then evaluate the results after. Factor in the salaries of recruiters who took time to find you and process only a small % of applications for people they interact with and that’s at least a few thousand dollars per interview.
+
+
 They want you to come prepared. They will wait rather than waste time, money and the opportunity cost of rejecting an engineer who could’ve passed if they just had waited an extra month or two. So push back your interview if you’re not ready. Never go in without being ready!
 If you follow the above, knowing when you’re ready is easy. You might still feel you aren’t but you’ll know for sure because you’re hitting your completion times and have passed many mock interviews. Being ready means you’ve proven undoubtedly through practice that you can pass interviews that ask the same types of difficult questions under the same time limits as the real one.
+
+
 This article only focuses on data-structures and algorithms questions. System Design and Behavioral questions also play a large role in the hire decision. I’ll leave those topics for another article.
