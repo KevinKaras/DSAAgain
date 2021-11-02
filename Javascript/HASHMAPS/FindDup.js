@@ -1,3 +1,8 @@
+// Make a function that takes an array with the array having as many unique values as the length of the array
+// ex: [1, 2, 3, 4]
+// When given an array like [1, 3, 3, 4]
+// return the number in the array that is a duplicate, added with the number that it should've been
+
 function findDup(arr){
     let seen = new Map()
     let dupe;
