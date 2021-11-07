@@ -19,7 +19,6 @@ function checkPermPali(inStr){
             i++
             continue
         }
-        console.log("cur", cur)
 
         if(!seen.has(cur) && cur !== " "){
             seen.set(cur, 1)
@@ -43,7 +42,6 @@ function checkPermPali(inStr){
         }
 
     })
-    console.log(onlyOne, seen)
     if(onlyOne ){
         return true
     }
