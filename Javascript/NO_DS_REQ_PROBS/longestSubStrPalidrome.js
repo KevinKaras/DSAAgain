@@ -25,3 +25,5 @@ function findLargestPalindrome(str){
     }
     return best_str
 }
+
+console.log(findLargestPalindrome("babac"))
